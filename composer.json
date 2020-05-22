@@ -1,0 +1,20 @@
+{
+    "name": "skymount-ru/edu-php-s3",
+    "description": "Educational App to demonstrate how to deal with S3 bucket using PHP.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Vikharev",
+            "email": "idexdv@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    }
+}
