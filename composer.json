@@ -10,7 +10,9 @@
         }
     ],
     "require": {
-        "php": ">7.3"
+        "php": ">7.3",
+        "aws/aws-sdk-php": "^3.138",
+        "vlucas/phpdotenv": "^4.1"
     },
     "autoload": {
         "psr-4": {
