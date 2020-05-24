@@ -59,7 +59,7 @@ class S3Helper
         if (empty($result['ObjectURL'])) {
             throw new \Exception('Error: File uploaded, but no ObjectURL found.');
         }
-
+print_r($result);
         return (string) $result['ObjectURL'];
     }
 }
